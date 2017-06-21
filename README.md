@@ -6,10 +6,15 @@ A simple REST application using Jersey Framework for a Projector Allocation Syst
 
 Provides APIs to make booking for projector, delete those bookings and retrieve those bookings
 GET,POST,DELETE HTTP methods are supported.
+
 GET - webapi/projectors  -> returns the current bookings of projectors
+
 GET - webapi/projectors/projectorId  -> returns the current bookings of specific projector
+
 POST - webapi/projectors -> makes a booking for the time slot and returns the id of projector
+
 DELETE -  webapi/projectors/projectorId -> deletes the booking for the specific projector
+
 
 JSON body accepted:-
 {
